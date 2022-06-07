@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 30;
+  overflow: hidden;
+  background: #313131;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.colors {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 20%;
+  border: 2px solid white;
+}
+
+.button{
+  align-self: center;
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  background-color: grey;
+  color: white;
+  border-radius: 10%;
+  margin: 3px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.picker {
+  width: 50px;
+  height: full;
+  align-self: center;
+}
+
+.colorpick-eyedropper-input-trigger {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  margin: 2px;
+}
+
+.thickness {
+  margin: 5px;
+}
+
+canvas {
+  border: 2px solid white ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
